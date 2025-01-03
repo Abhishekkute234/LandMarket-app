@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "landmarket_app",
-    "slug": "landmarket_app",
+    "name": "landmarket",
+    "slug": "landmarket",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
