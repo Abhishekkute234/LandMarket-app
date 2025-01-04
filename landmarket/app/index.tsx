@@ -1,5 +1,6 @@
 import { Link } from "expo-router";
 import { View, Text } from "react-native";
+import "./global.css";
 
 export default function Index() {
   return (
@@ -10,16 +11,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text
-        style={{
-          fontWeight: "bold",
-          color: "#4b5563",
-          fontSize: 18,
-          marginVertical: 20,
-        }}
-      >
-        Welcome to the Restat
-      </Text>
+      <Text className="  my-10 font-rubik text-3xl">Welcome to the Restat</Text>
       <Link href="/sign-in">Sign in</Link>
       <Link href="/explore">Explore</Link>
       <Link href="/profile">Profile</Link>
